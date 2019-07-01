@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background:url("pattern2.jpg") repeat ;
+    margin: 0px;
+}
+b span{
+    display:inline-block;
+    line-height:1;
+    
+    
+}
+span img{
+    width:18px;
+    height:18px;
+    
+}
+header a{
+    color:brown;
+    font-family: cursive;
+    
+
+}
+
+header {
+    clear: both;
+    display: block;
+}
+
+.navbar-nav
+{
+    margin-left: auto !important;
+}
+.bg-warning{
+    background-color:#d0852d!important;
+    
+    
+}
+.del
+{
+    color:green;
+}
+.glyph
+{
+    font-size:large;
+}
+ul li:nth-child(4) span {
+    display:block;
+}
+
+#call-btn {
+    display: none;
+}
+#main-content
+{
+    margin-top:14px;
+    
+}
+
+#menu-title,#specials-title,#map-title
+{
+    height:250px;
+    width:100%;
+    margin-bottom:15px;
+    border:2px solid #3f0c1f;
+    overflow:hidden;
+}
+#menu-title:hover,#specials-title:hover,#map-title:hover
+{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-title
+{
+    background:url("menu-tile.jpg") no-repeat;
+    background-position:center;
+    position: relative;
+}
+#specials-title
+{
+    background:url("specials-tile1.jpg") no-repeat;
+    background-position: center;
+    position:relative;
+}
+#map-title
+{
+    background-position:center;
+    position: relative;
+}
+#map-title span,#specials-title span,#menu-title span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align:center;
+    font-size:2em;
+    text-transform:uppercase;
+    background-color:#000;
+    color:#fff;
+    opacity:0.8;
+    
+}
+.card-footer
+{
+    margin-top:30px;
+    padding-top:35px;
+    padding-bottom:30px;
+    background-color:#222;
+    border-top:0;
+    color:whitesmoke;
+}
+.card-footer div.row
+{
+    margin-bottom:35px;
+}
+#hours,#address
+{
+    line-height: 1.8;
+}
+
+#hours>span,#address>span{
+    font-size:1.3em;
+}
+#address p{
+    color: olivedrab;
+    font-size:0.8em;
+    line-height: 1.8;
+}
+#testimonials
+{
+    font-family:
+
+}
+#testimonials p:nth-child(2)
+{
+    margin-top:25px;
+}
+@media only screen and (min-width:1200px)
+{
+    .jumbotron
+    {
+        background: url('jumbotron_1200.jpg') no-repeat;
+        height:675px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    #logo-img {
+      background: url('restaurant-logo_medium.png') no-repeat;
+      width: 100px;
+      height: 100px;
+      
+    }
+    
+    .jumbotron {
+      background: url('jumbotron_992.jpg') no-repeat;
+      height: 558px;
+    }
+
+    .navbar-brand h1
+    {
+        font-size: 2.5vw;
+        font-weight: bolder;
+        text-shadow: 12px black;
+        line-height: 0.55;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .jumbotron {
+      background: url('jumbotron_768.jpg') no-repeat;
+      height: 432px;
+      
+    }
+    #logo
+    {
+        display:none;
+    }
+  
+    .navbar-toggler
+    {
+        background-color:brown;
+        position: relative;
+        right:8%;
+    }
+    
+    .navbar-brand h1
+    {
+        font-size: x-large;
+        font-weight: bolder;
+        text-shadow: 12px black;
+    }   
+    .jumbotron
+    {
+        background:url('jumbotron_992.jpg') no-repeat;
+        height:582px;
+    }
+  }
+
+  @media (max-width: 767px)
+  {
+    #logo
+    {
+        display:none;
+    }
+   
+    .navbar-toggler
+    {
+        background-color:brown;
+        position: relative;
+        right:-80%;
+    }
+    
+    .navbar-brand h1
+    {
+        font-size: 6vw;
+        font-weight: bolder;
+        text-shadow: 12px black;
+        line-height: 0.55;
+    }
+    .dntshw
+    {
+        display: none;
+    }
+    b span 
+    {
+        font-size:3vw;
+    }
+    .wed
+    {
+      margin-left:1vw;
+      font-size: x-small;
+    }
+    #call-btn
+    {
+    display: block;
+    margin-top:10px;
+    width: 92%;
+    margin-left:3%;
+    margin-right: 3%;
+    background-color:#d0852d;
+    border:5px solid wheat;
+    font-family:cursive;
+    text-align: center;
+    color: brown;
+    }
+    .btn
+    {   
+    color: brown;
+    }
+    .jumbotron
+    {
+        margin-top:0px;
+        padding:0px;
+    }
+    #menu-title,#specials-title,#map-title
+    {
+        width:360px;
+        margin:0px auto 15px;
+    }
+  }
+
+  @media(max-width:479px)
+  {
+    #menu-title,#specials-title,#map-title
+    {
+        width:280px;
+        margin:0px auto 13px;
+    }
+    .navbar-brand h1
+    {
+        padding-top:6px;
+        font-size:6vw;
+    }
+    .card-footer section
+    {
+        margin-bottom:30px;
+        text-align:center;
+    }
+    .card-footer section:nth-child(3)
+    {
+        margin-bottom:0;
+    }
+    .card-footer section :horizontal{
+        width:50%;
+    }
+
+  }
+
+
+
+
+
+
+   
+
+
